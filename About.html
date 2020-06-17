@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+	
+	
+	.logos a 
+		{
+		  padding: 20px;
+		  font-size: 30px;
+		  width: 30px;
+		  text-align: center;
+		  text-decoration: none;
+		  margin: 5px 2px;
+		  border-radius: 50%;
+		  border:1px solid black;
+		}
+		
+	.fa a:hover{
+		opacity: 0.7;
+	}
+
+	.fa-instagram {
+	  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+	  color: white;
+	}
+
+	
+		
+	body {
+	  font-family: Arial, Helvetica, sans-serif;
+	}
+
+	.mobile-container {
+	  margin: auto;
+	  background-image: linear-gradient(to bottom right,#006fff,#00e5e5,#0bff96);
+	  color: black;
+	}
+
+	.topnav {
+	  overflow: hidden;
+	  background-color: black;
+	  position: relative;
+	}
+
+	.topnav #myLinks {
+	  display: none;
+	}
+
+	.topnav a {
+	  color: white;
+	  padding: 14px 16px;
+	  border:1px solid white;
+	  text-decoration: none;
+	  font-size: 17px;
+	  display: block;
+	}
+
+	.topnav a.icon {
+	  background: black;
+	  display: block;
+	  position: absolute;
+	  right: 0;
+	  top: 0;
+	}
+
+	.topnav a:hover {
+	  background-color: #ddd;
+	  color: black;
+	}
+
+	.active {
+	  background-color: black;
+	  color: white;
+	}
+
+</style>
+</head>
+
+<body style="background-color:black">
+
+<!-- Simulate a smartphone / tablet -->
+<div class="mobile-container">
+
+	<!-- Top Navigation Menu -->
+	<div class="topnav">
+	  <a href="#home" class="active">ABOUT</a>
+	  <div id="myLinks">
+		<a href="index.html">HOME</a>
+		<a href="Pubg.html">PUBG</a>
+		<a href="GTA-5.html">GTA-5</a>
+	  </div>
+	  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		<i class="fa fa-bars"></i>
+	  </a>
+	</div>
+	
+	<img src="img\safaan.jpg" style="width:100%">
+	<img src="img\daarab.jpg" style="width:100%">
+
+
+	<br><br>
+	<div class="logos">
+		<center>
+		<h3 style="font-family:Copperplate Gothic;"><ins>Contact us on </ins></h3>
+		<a href="https://www.instagram.com/safaanhashmi/" class="fa fa-instagram"></a> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+		<a href="https://www.instagram.com/muhddaaraab/" class="fa fa-instagram"></a><br>
+		<h4> Safaan &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp Daaraab</h4>
+		</center>
+	</div>
+	
+	<br><br>
+      
+
+
+<!-- End smartphone / tablet look -->
+</div>
+
+<script>
+
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+
+</script>
+
+</body>
+</html>
